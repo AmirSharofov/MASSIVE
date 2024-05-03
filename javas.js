@@ -37,22 +37,170 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
 // console.log(odd);
 
 
-const devide5 = (num) => num % 5 === 0
-const abc = numbers.filter(devide5)
+// const devide5 = (num) => num % 5 === 0
+// const abc = numbers.filter(devide5)
 
-const devide3 = (num) => num % 3 === 0
-const bc = numbers.filter(devide3)
+// const devide3 = (num) => num % 3 === 0
+// const bc = numbers.filter(devide3)
 
-const devide3and5 = (num) => num % 5 === 0 & num % 3 ===0;
-const c = numbers.filter(devide3and5)
+// const devide3and5 = (num) => num % 5 === 0 & num % 3 ===0;
+// const c = numbers.filter(devide3and5)
 
 
-console.log(devide3);
-console.log(devide5);
-console.log(devide3and5);
+// console.log(devide3);
+// console.log(devide5);
+// console.log(devide3and5);
 
-if (devide3) {
+// if (devide3) {
 
-} else {
+// } else {
     
-}
+// }
+
+// const arr = [1, 2, 2, 1, 123, 12, 31, 231, 23, 123, 123]
+//map, filter, find 
+
+// const filteredArray = arr.filter((item) => item > 100)
+
+// console.log(filteredArray);
+
+// const find = arr.find((item, idx) => {
+//     if (item > 100) {console.log({el: item, index: idx});
+//     return item;    
+//     }
+// })
+
+let arr = [
+    {
+        id: Math.random(),
+        name: 'Timur',
+        info: {
+            school: '235',
+            faculity: 'SMM'
+        },
+    },
+    {
+        id: Math.random(),
+        name: 'Imran',
+        info: {
+            school: 'ne izvestno',
+            faculity: 'programming'
+        },
+    },
+    {
+        id: Math.random(),
+        name: 'Aminjon',
+        info: {
+            school: '444',
+            faculity: 'Dizayn'
+        },
+    },
+    {
+        id: Math.random(),
+        name: 'Maxmud',
+        info: {
+            school: '777',
+            faculity: '3dsmax'
+        },
+    },
+    {
+        id: Math.random(),
+        name: 'Muxammad',
+        info: {
+            school: '5555',
+            faculity: 'Backend'
+        },
+    },
+    {
+        id: Math.random(),
+        name: 'Timur',
+        info: {
+            school: '235',
+            faculity: 'SMM'
+        },
+    },
+    {
+        id: Math.random(),
+        name: 'Imran',
+        info: {
+            school: 'ne izvestno',
+            faculity: 'programming'
+        },
+    },
+    {
+        id: Math.random(),
+        name: 'Aminjon',
+        info: {
+            school: '444',
+            faculity: 'Dizayn'
+        },
+    },
+    {
+        id: Math.random(),
+        name: 'Maxmud',
+        info: {
+            school: '777',
+            faculity: '3dsmax'
+        },
+    },
+    {
+        id: Math.random(),
+        name: 'Maxmud',
+        info: {
+            school: '777',
+            faculity: '3dsmax'
+        },
+    },
+    {
+        id: Math.random(),
+        name: 'Muxammad',
+        info: {
+            school: '5555',
+            faculity: 'Backend'
+        },
+    },
+]
+
+let categories = [
+    {
+        course: ' SMM',
+        count: 0
+    },
+    {
+        course: 'PROGRAMMING',
+        count: 0
+    },
+    {
+        course: '     3DSMAX',
+        count: 0
+    },
+    {
+        course: ' DIZAYN',
+        count: 0
+    },
+    {       
+        course: '   BACKEND',
+        count: 0
+    },
+]
+let count = 0;
+
+for (let i = 0; i < arr.length; i +=1 ) {
+    if (arr[i] === 1) {
+      count += 1;
+    }
+  }
+
+
+
+
+
+
+
+
+// const countItems = {};
+// for (const item of numbers) {
+//     countItems[item] = countItems[item] ? countItems[item] + 1 : 1;
+// }
+// const result = Object.keys(countItems).filter((item) => countItems[item] > 1);
+// console.dir(result); 
