@@ -204,3 +204,8 @@ for (let i = 0; i < arr.length; i +=1 ) {
 // }
 // const result = Object.keys(countItems).filter((item) => countItems[item] > 1);
 // console.dir(result); 
+
+while(true){
+console.log('HELLO WORLD');
+}
+инторация проходит один круг 
